@@ -328,18 +328,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
         'und' => array(
           'admin_title' => 'Tabs - PHP',
           'title' => '',
-          'body' => '<ul class="nav nav-pills">
+          'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
           'format' => 'php_code',
@@ -348,18 +348,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
       ),
       'admin_title' => 'Tabs - PHP',
       'title' => '',
-      'body' => '<ul class="nav nav-pills">
+      'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
       'format' => 'php_code',
@@ -514,18 +514,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
         'und' => array(
           'admin_title' => 'Tabs - PHP',
           'title' => '',
-          'body' => '<ul class="nav nav-pills">
+          'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
           'format' => 'php_code',
@@ -534,18 +534,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
       ),
       'admin_title' => 'Tabs - PHP',
       'title' => '',
-      'body' => '<ul class="nav nav-pills">
+      'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
       'format' => 'php_code',
@@ -690,18 +690,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
         'und' => array(
           'admin_title' => 'Tabs - PHP',
           'title' => '',
-          'body' => '<ul class="nav nav-pills">
+          'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
           'format' => 'php_code',
@@ -710,18 +710,18 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
       ),
       'admin_title' => 'Tabs - PHP',
       'title' => '',
-      'body' => '<ul class="nav nav-pills">
+      'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
       'format' => 'php_code',
@@ -874,20 +874,42 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
+      'mlpanels' => array(
+        'und' => array(
+          'admin_title' => 'Tabs - PHP',
+          'title' => '',
+          'body' => '<ul class="nav nav-tabs">
+  <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
+  </li>
+  <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
+  </li>
+  <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
+  </li>
+  <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
+  </li>
+</ul>',
+          'format' => 'php_code',
+          'substitute' => 1,
+        ),
+      ),
       'admin_title' => 'Tabs - PHP',
       'title' => '',
       'body' => '<ul class="nav nav-tabs">
   <li<?php if (\'%tab:raw\' == \'\' || \'%tab:raw\' == \'recent\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Recent\'), \'tn-widgets/initiatives/national/%country:iso2/recent\'); ?>
+<?php print l(t(\'Recent\'), \'tn-widgets/national/initiatives/%country:iso2/recent\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'search\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Search\'), \'tn-widgets/initiatives/national/%country:iso2/search\'); ?>
+<?php print l(t(\'Search\'), \'tn-widgets/national/initiatives/%country:iso2/search\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'map\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'Map\'), \'tn-widgets/initiatives/national/%country:iso2/map\'); ?>
+<?php print l(t(\'Map\'), \'tn-widgets/national/initiatives/%country:iso2/map\'); ?>
   </li>
   <li<?php if (\'%tab:raw\' == \'about\') { print \' class="active"\'; } ?>>
-<?php print l(t(\'About\'), \'tn-widgets/initiatives/national/%country:iso2/about\'); ?>
+<?php print l(t(\'About\'), \'tn-widgets/national/initiatives/%country:iso2/about\'); ?>
   </li>
 </ul>',
       'format' => 'php_code',
