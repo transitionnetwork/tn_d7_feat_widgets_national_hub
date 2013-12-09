@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Transition Network: Widgets - National Hub feature.
  */
+
+include_once 'tn_d7_feat_widgets_national_hub.features.inc';
