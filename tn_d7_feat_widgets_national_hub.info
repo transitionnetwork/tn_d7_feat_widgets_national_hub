@@ -5,7 +5,6 @@ package = Transition Network
 php = 5.2.4
 dependencies[] = countries
 dependencies[] = ctools
-dependencies[] = mlpanels
 dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = tn_d7_feat_base
