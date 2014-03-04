@@ -70,7 +70,7 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Initiative',
     'no_blocks' => 1,
-    'pipeline' => 'mlpanels_renderer_standard',
+    'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => 'inside-widget container',
     'css_id' => '',
@@ -93,10 +93,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = 'IIRS %step:raw';
+  $display->uuid = 'b188e0b9-cc14-4a80-b7b6-fee60a4d58d0';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-1';
+    $pane->pid = 'new-b6e000fe-1f6f-41be-95d2-19ae387ed1f9';
     $pane->panel = 'middle';
     $pane->type = 'workflow_container';
     $pane->subtype = 'workflow_container';
@@ -112,7 +113,10 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
           'override_title_text' => '',
           'node_type' => 'initiative',
           'thankyou_content' => array(
-            'value' => 'OMG!OMG!OMG!',
+            'format' => 'filtered_html',
+            'value' => '<p>Thank you for registering your Transition Initiative. We appreciate you taking the time to tell us who you are; and participating in this global experiment. We all become stronger by being more connected.</p>
+
+<p>Your application will now go to the National Hub administrator in your country who will approve it. You should receive confirmation of your application within the next few days. Then you will be on the map of Transition Initiatives for your country and internationally.</p>',
           ),
         ),
         'fr' => array(
@@ -134,45 +138,28 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
       'override_title_text' => '',
       'node_type' => 'initiative',
       'thankyou_content' => array(
-        'value' => 'OMG!OMG!OMG!',
+        'format' => 'filtered_html',
+        'value' => '<p>Thank you for registering your Transition Initiative. We appreciate you taking the time to tell us who you are; and participating in this global experiment. We all become stronger by being more connected.</p>
+
+<p>Your application will now go to the National Hub administrator in your country who will approve it. You should receive confirmation of your application within the next few days. Then you will be on the map of Transition Initiatives for your country and internationally.</p>',
       ),
     );
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'hide-title',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['middle'][0] = 'new-1';
-    $pane = new stdClass();
-    $pane->pid = 'new-2';
-    $pane->panel = 'middle';
-    $pane->type = 'custom';
-    $pane->subtype = 'custom';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => '',
-      'title' => '',
-      'body' => '%step:raw %nodetype:raw %country:name',
-      'format' => 'plain_text',
-      'substitute' => 1,
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['middle'][1] = 'new-2';
+    $pane->uuid = 'b6e000fe-1f6f-41be-95d2-19ae387ed1f9';
+    $display->content['new-b6e000fe-1f6f-41be-95d2-19ae387ed1f9'] = $pane;
+    $display->panels['middle'][0] = 'new-b6e000fe-1f6f-41be-95d2-19ae387ed1f9';
   $display->hide_title = PANELS_TITLE_PANE;
-  $display->title_pane = 'new-1';
+  $display->title_pane = 'new-b6e000fe-1f6f-41be-95d2-19ae387ed1f9';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['tn_widget_entry_user_submit_thanks'] = $page;
@@ -229,7 +216,7 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Recent tab',
     'no_blocks' => 0,
-    'pipeline' => 'mlpanels_renderer_standard',
+    'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',
@@ -274,10 +261,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = '';
+  $display->uuid = 'ebf0573c-2344-4210-84de-bd916bff3341';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-3';
+    $pane->pid = 'new-7fc62f8b-4be1-4a1a-a679-60fcea818cd5';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -314,10 +302,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['middle'][0] = 'new-3';
+    $pane->uuid = '7fc62f8b-4be1-4a1a-a679-60fcea818cd5';
+    $display->content['new-7fc62f8b-4be1-4a1a-a679-60fcea818cd5'] = $pane;
+    $display->panels['middle'][0] = 'new-7fc62f8b-4be1-4a1a-a679-60fcea818cd5';
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-9956ac97-73f2-4561-8613-65add146562b';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -376,10 +365,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['middle'][1] = 'new-4';
+    $pane->uuid = '9956ac97-73f2-4561-8613-65add146562b';
+    $display->content['new-9956ac97-73f2-4561-8613-65add146562b'] = $pane;
+    $display->panels['middle'][1] = 'new-9956ac97-73f2-4561-8613-65add146562b';
     $pane = new stdClass();
-    $pane->pid = 'new-5';
+    $pane->pid = 'new-0d51b904-4947-4d59-a24b-b3daa945d948';
     $pane->panel = 'middle';
     $pane->type = 'views_panes';
     $pane->subtype = 'tn_initiatives_list-panel_pane_1';
@@ -422,10 +412,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['middle'][2] = 'new-5';
+    $pane->uuid = '0d51b904-4947-4d59-a24b-b3daa945d948';
+    $display->content['new-0d51b904-4947-4d59-a24b-b3daa945d948'] = $pane;
+    $display->panels['middle'][2] = 'new-0d51b904-4947-4d59-a24b-b3daa945d948';
   $display->hide_title = PANELS_TITLE_PANE;
-  $display->title_pane = 'new-3';
+  $display->title_pane = 'new-7fc62f8b-4be1-4a1a-a679-60fcea818cd5';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $handler = new stdClass();
@@ -439,7 +430,7 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Search tab',
     'no_blocks' => 0,
-    'pipeline' => 'mlpanels_renderer_standard',
+    'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',
@@ -476,10 +467,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = '';
+  $display->uuid = '2ce375d5-8f2d-4471-9a67-516750db4b63';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-6';
+    $pane->pid = 'new-fdea5ebd-42a4-4dfa-b732-6dc3d5da6abc';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -500,10 +492,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['middle'][0] = 'new-6';
+    $pane->uuid = 'fdea5ebd-42a4-4dfa-b732-6dc3d5da6abc';
+    $display->content['new-fdea5ebd-42a4-4dfa-b732-6dc3d5da6abc'] = $pane;
+    $display->panels['middle'][0] = 'new-fdea5ebd-42a4-4dfa-b732-6dc3d5da6abc';
     $pane = new stdClass();
-    $pane->pid = 'new-7';
+    $pane->pid = 'new-035de91c-21a0-4678-ba21-7c956230de6c';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -562,10 +555,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-7'] = $pane;
-    $display->panels['middle'][1] = 'new-7';
+    $pane->uuid = '035de91c-21a0-4678-ba21-7c956230de6c';
+    $display->content['new-035de91c-21a0-4678-ba21-7c956230de6c'] = $pane;
+    $display->panels['middle'][1] = 'new-035de91c-21a0-4678-ba21-7c956230de6c';
     $pane = new stdClass();
-    $pane->pid = 'new-8';
+    $pane->pid = 'new-60f3440c-1175-4c24-a8a8-e7aa1b323339';
     $pane->panel = 'middle';
     $pane->type = 'views_panes';
     $pane->subtype = 'tn_initiatives_list-panel_pane_2';
@@ -598,10 +592,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-8'] = $pane;
-    $display->panels['middle'][2] = 'new-8';
+    $pane->uuid = '60f3440c-1175-4c24-a8a8-e7aa1b323339';
+    $display->content['new-60f3440c-1175-4c24-a8a8-e7aa1b323339'] = $pane;
+    $display->panels['middle'][2] = 'new-60f3440c-1175-4c24-a8a8-e7aa1b323339';
   $display->hide_title = PANELS_TITLE_PANE;
-  $display->title_pane = 'new-6';
+  $display->title_pane = 'new-fdea5ebd-42a4-4dfa-b732-6dc3d5da6abc';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $handler = new stdClass();
@@ -615,7 +610,7 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Map tab',
     'no_blocks' => 0,
-    'pipeline' => 'mlpanels_renderer_standard',
+    'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',
@@ -652,10 +647,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = '';
+  $display->uuid = '2586a6cb-310a-4ec2-b719-c0138c2bcd4e';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-9';
+    $pane->pid = 'new-712e1d81-db57-40f3-b026-c58cc55b32ab';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -676,10 +672,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['middle'][0] = 'new-9';
+    $pane->uuid = '712e1d81-db57-40f3-b026-c58cc55b32ab';
+    $display->content['new-712e1d81-db57-40f3-b026-c58cc55b32ab'] = $pane;
+    $display->panels['middle'][0] = 'new-712e1d81-db57-40f3-b026-c58cc55b32ab';
     $pane = new stdClass();
-    $pane->pid = 'new-10';
+    $pane->pid = 'new-ceed4cec-1169-43a8-93e6-22ece713b8db';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -738,10 +735,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-10'] = $pane;
-    $display->panels['middle'][1] = 'new-10';
+    $pane->uuid = 'ceed4cec-1169-43a8-93e6-22ece713b8db';
+    $display->content['new-ceed4cec-1169-43a8-93e6-22ece713b8db'] = $pane;
+    $display->panels['middle'][1] = 'new-ceed4cec-1169-43a8-93e6-22ece713b8db';
     $pane = new stdClass();
-    $pane->pid = 'new-11';
+    $pane->pid = 'new-be3b7fd0-216b-4336-8a7e-ce13d7af2242';
     $pane->panel = 'middle';
     $pane->type = 'views_panes';
     $pane->subtype = 'tn_initiatives_maps-panel_pane_2';
@@ -786,10 +784,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-11'] = $pane;
-    $display->panels['middle'][2] = 'new-11';
+    $pane->uuid = 'be3b7fd0-216b-4336-8a7e-ce13d7af2242';
+    $display->content['new-be3b7fd0-216b-4336-8a7e-ce13d7af2242'] = $pane;
+    $display->panels['middle'][2] = 'new-be3b7fd0-216b-4336-8a7e-ce13d7af2242';
   $display->hide_title = PANELS_TITLE_PANE;
-  $display->title_pane = 'new-9';
+  $display->title_pane = 'new-712e1d81-db57-40f3-b026-c58cc55b32ab';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $handler = new stdClass();
@@ -803,7 +802,7 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'About tab',
     'no_blocks' => 0,
-    'pipeline' => 'mlpanels_renderer_standard',
+    'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',
@@ -840,10 +839,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = '';
+  $display->uuid = '3e2967f4-356d-43ef-b06c-4cb4d6ab36ab';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-12';
+    $pane->pid = 'new-01b5faff-d1f8-4f27-a90d-8e7bd6b58720';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -864,10 +864,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-12'] = $pane;
-    $display->panels['middle'][0] = 'new-12';
+    $pane->uuid = '01b5faff-d1f8-4f27-a90d-8e7bd6b58720';
+    $display->content['new-01b5faff-d1f8-4f27-a90d-8e7bd6b58720'] = $pane;
+    $display->panels['middle'][0] = 'new-01b5faff-d1f8-4f27-a90d-8e7bd6b58720';
     $pane = new stdClass();
-    $pane->pid = 'new-13';
+    $pane->pid = 'new-529ec799-c241-4925-b517-600210ef8170';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -926,10 +927,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-13'] = $pane;
-    $display->panels['middle'][1] = 'new-13';
+    $pane->uuid = '529ec799-c241-4925-b517-600210ef8170';
+    $display->content['new-529ec799-c241-4925-b517-600210ef8170'] = $pane;
+    $display->panels['middle'][1] = 'new-529ec799-c241-4925-b517-600210ef8170';
     $pane = new stdClass();
-    $pane->pid = 'new-14';
+    $pane->pid = 'new-ba036eef-6a53-4354-844e-1d8efa2a0e1f';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'custom';
@@ -955,10 +957,11 @@ function tn_d7_feat_widgets_national_hub_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-14'] = $pane;
-    $display->panels['middle'][2] = 'new-14';
+    $pane->uuid = 'ba036eef-6a53-4354-844e-1d8efa2a0e1f';
+    $display->content['new-ba036eef-6a53-4354-844e-1d8efa2a0e1f'] = $pane;
+    $display->panels['middle'][2] = 'new-ba036eef-6a53-4354-844e-1d8efa2a0e1f';
   $display->hide_title = PANELS_TITLE_PANE;
-  $display->title_pane = 'new-12';
+  $display->title_pane = 'new-01b5faff-d1f8-4f27-a90d-8e7bd6b58720';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
   $pages['tn_widgets_view_initiative_tabs'] = $page;
